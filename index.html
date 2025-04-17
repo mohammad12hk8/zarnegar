@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>زرنگار - خدمات چاپ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>خدمات چاپ زرنگار</h1>
+    
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label>نام کامل:</label>
+      <input type="text" name="fullname" required />
+
+      <label>ایمیل:</label>
+      <input type="email" name="email" required />
+
+      <label>شماره تلفن:</label>
+      <input type="tel" name="phone" required />
+
+      <label>نوع چاپ:</label>
+      <select name="printType" required>
+        <option value="رنگی">رنگی</option>
+        <option value="سیاه و سفید">سیاه و سفید</option>
+      </select>
+
+      <label>آپلود فایل:</label>
+      <input type="file" name="file" required />
+
+      <button type="submit">ثبت سفارش</button>
+    </form>
+  </div>
+</body>
+</html>
